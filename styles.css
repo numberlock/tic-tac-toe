@@ -7,3 +7,10 @@
 body {
   font-size: 62.5%;
 }
+
+.game-board {
+  font-size: 3em;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
